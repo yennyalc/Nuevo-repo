@@ -3,49 +3,57 @@
   padding: 0;
   margin: 0; }
 
-/*Barra de navegacion*/
+/* Seccion index*/
+/*logo*/
 div img {
   width: 6rem; }
 
-.justify-content-center {
+/*Barra de navegacion*/
+.centrar-menu {
   display: flex;
-  align-items: center; }
+  justify-content: center; }
 
 ul li {
   list-style: none;
-  text-decoration: none; }
+  text-decoration: none;
+  padding-right: 3rem; }
   ul li a {
-    font-family: "Raleway", sans-serif;
+    font-family: "Quicksand", sans-serif;
     color: darkslategrey;
     font-size: 20px;
-    text-decoration: none;
-    margin: 40px; }
+    text-decoration: none; }
     ul li a:hover {
       background-color: #AAE068;
       border-radius: 20px;
-      color: white; }
+      color: whitesmoke; }
+
+/*imagen inicio con texto*/
+.background-inicio {
+  width: 100%; }
+
+/*frase nos necesitamos*/
+.frase {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px; }
 
 /*Video*/
 .video {
   text-align: center;
-  margin: 20px;
-  border-radius: 15px; }
+  background-color: #f9f4e9;
+  width: 100%; }
 
 /* iconos footer y copyright*/
 .redes {
   text-align: center;
   margin-top: 8rem; }
-
-.redes-iconos {
-  width: 3%;
-  display: inline-block;
-  margin: 5px;
-  margin-bottom: 3rem; }
-
-.copyright {
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  margin-top: 0; }
+  .redes .redes-iconos {
+    width: 3%;
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 3rem; }
+  .redes .copyright {
+    font-family: "Quicksand", sans-serif;
+    margin-top: 0; }
 
 /*Decoracion ondas encabezado*/
 .custom-shape-divider-top-1610495137 {
@@ -54,7 +62,8 @@ ul li {
   left: 0;
   width: 100%;
   overflow: hidden;
-  line-height: 0; }
+  line-height: 0;
+  z-index: 1; }
 
 .custom-shape-divider-top-1610495137 svg {
   position: relative;
@@ -101,30 +110,34 @@ ul li {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
 
 .escribenos {
-  padding-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   font-family: "Montserrat", sans-serif;
   color: darkslategrey;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  text-align: center; }
 
-h6 {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 1rem;
+.contactanos-en {
+  align-items: center;
   padding-top: 20px;
-  padding-bottom: 20px;
-  color: darkslategrey; }
+  padding-bottom: 20px; }
 
 /*Seccion nosotros*/
+.titulo-hojita {
+  text-align: center; }
+  .titulo-hojita .titulo-historia {
+    padding-top: 3rem;
+    font-family: "Quicksand", sans-serif; }
+  .titulo-hojita .hojita {
+    width: 4rem;
+    padding-top: 4rem; }
+
 #columnasnosotras {
   background-color: #f9f4e9;
   text-align: center; }
 
 .proposito-nosotras {
-  font-size: 1rem;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
   padding: 3rem;
   padding-top: 1rem; }
 
@@ -141,30 +154,6 @@ h6 {
     color: #BB9E7F; }
     .fotos-nosotras .yenny .foto-2 {
       width: 13rem; }
-
-/* Seccion index*/
-#columnasinicio {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  -webkit-column-gap: 10px;
-  -moz-column-gap: 10px;
-  column-gap: 10px;
-  background-color: #f9f4e9; }
-
-.slogan {
-  font-family: "Montserrat", sans-serif;
-  color: #bb9e7f;
-  padding-top: 12rem;
-  padding-left: 3rem;
-  padding-bottom: 2rem; }
-
-.proposito {
-  font-family: "Montserrat", sans-serif;
-  padding-left: 3rem; }
-
-.img-fluid {
-  width: 80%; }
 
 /*seccion blog*/
 .tarjetas-blog {
