@@ -9,9 +9,11 @@ div img {
   width: 6rem; }
 
 /*Barra de navegacion*/
-.centrar-menu {
-  display: flex;
+.navbar-collapse {
   justify-content: center; }
+
+.navbar-expand-lg .navbar-nav {
+  margin-right: 0 !important; }
 
 ul li {
   list-style: none;
